@@ -4,6 +4,21 @@ Submission ini mencakup dua tahap utama, yaitu Clustering dan Klasifikasi, denga
 
 ![urutan kerja](image.png)
 
+## Hasil
+
+:star::star::star::star:
+
+- Overall Review
+  
+  Good Job! Kamu berhasil menerapkan semua kriteria utama dan beberapa kriteria saran yang ditentukan oleh Dicoding pada submission ini seperti :
+    - Menggunakan dataset dengan **minimal 2500 baris**. Dataset yang kamu gunakan memiliki **899991 baris** data.
+    - Menggunakan **minimal 5 fitur** untuk proses clustering dengan **campuran numerikal dan kategorikal**. Kamu menggunakan **5 fitur untuk clustering, terdiri dari 4 fitur numerik dan 1 fitur kategorikal (one-hot encoding)**.
+    - Evaluasi akhir pada clustering harus mencapai **nilai silhouette score minimal 0.70**. Silhoutte score akhir yang kamu peroleh dengan jumlah cluster 4 adalah **0.865**.
+    - Mengimplementasikan **2 algoritma klasifikasi** yang berbeda untuk membandingkan performa model. Kamu mengimplementasikan 2 algoritma yang berbeda yaitu **random forest dan naive bayes**.
+    - Meningkatkan **akurasi dan F1-Score** pada training serta testing set **minimal 92%**. Akurasi dan f1-score pada kedua algoritma tersebut baik sebelum maupun sesudah tuning dilakukan sudah diatas 92%.
+    - Namun, terdapat beberapa kriteria saran belum kamu terapkan. Berikut daftar dan alasan mengapa kriteria tersebut belum terpenuhi atau diterapkan dengan benar : 
+      - Menerapkan feature selection pada tahap clustering untuk memilih fitur terbaik dan membandingkan silhoutte score dengan sebelum menggunakan feature selection. Saran ini tidak terpenuhi karena kamu tidak melakukan feature selection, jika dilakukan haruslah pada bagian khusus yaitu c. Feature Selection (Opsional) kemudian bandingkan sillhoutte score sebelum dan sesudah feature selection dilakukan. 
+
 ## Panduan Dataset
 
 - Sumber Dataset
